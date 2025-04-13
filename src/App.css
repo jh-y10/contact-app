@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+}
+
+.search-button {
+  margin-bottom: 30px;
+}
+
+.list-area {
+  padding: 10px;
+  border: 1px solid #000;
+  width: 300px;
+}
+
+.list-item {
+  margin-bottom: 10px;
+}
