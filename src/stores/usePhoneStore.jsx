@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-const usePhoneBookStore = create((set) => ({
+const usePhoneStore = create((set) => ({
   phoneBook: [],
   addContact: (name, phoneNumber) =>
     set((state) => ({
@@ -13,4 +13,4 @@ const usePhoneBookStore = create((set) => ({
     })),
 }));
 
-export default usePhoneBookStore;
+export default usePhoneStore;

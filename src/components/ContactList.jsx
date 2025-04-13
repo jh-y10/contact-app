@@ -1,13 +1,13 @@
 import React from "react";
 import { useState } from "react";
-import usePhoneBookStore from "../stores/usePhonebookStore";
+import usePhoneStore from "../stores/usePhoneStore";
 
 
 const ContactList = () => {
   const [searchInput, setSearchInput] = useState("");
-  const { phoneBook } = usePhoneBookStore();
-  const { addFilter } = usePhoneBookStore();
-  const { filterBook } = usePhoneBookStore();
+  const { phoneBook } = usePhoneStore();
+  const { addFilter } = usePhoneStore();
+  const { filterBook } = usePhoneStore();
 
   let filterList = [];
 
