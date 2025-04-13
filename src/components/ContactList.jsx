@@ -1,6 +1,7 @@
 import React from "react";
-import usePhoneBookStore from "../stores/usePhonebookStore";
 import { useState } from "react";
+import usePhoneBookStore from "../stores/usePhonebookStore";
+
 
 const ContactList = () => {
   const [searchInput, setSearchInput] = useState("");
